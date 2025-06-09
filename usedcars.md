@@ -15,7 +15,7 @@
 | License plate        | VARCHAR(10)                     | NULL          |             |
 | Purchase price       | INT                             | NOT NULL      |             |
 | Sale price           | INT                             | NOT NULL      |             |
-|                      |                                 |               |             |
+| Changing of the car  | ENUM('automatic','manual')      | NULL          | INDEX       |
 |                      |                                 |               |             |
 |                      |                                 |               |             |
 |                      |                                 |               |             |
